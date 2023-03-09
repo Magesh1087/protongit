@@ -1,0 +1,10 @@
+{
+ "sample-vpc-environment-template": {
+# Here I’m going to use Administrative Roles
+    "role": "arn:aws:iam::842814951080:role/service-role/proton-vpc-test-role", 	
+# Default region Ireland
+    "region": "eu-west-1",
+# S3 Bucket name
+    "state_bucket":"aws-proton-terraform-bucket-842814951080”
+	}
+}
