@@ -1,7 +1,7 @@
 {
  "sample-vpc-environment-1": {
 # Here I’m going to use Administrative Roles
-    "role": "arn:aws:iam::842814951080:role/service-role/proton-vpc-test-role", 	
+    "role": "arn:aws:iam::842814951080:role/Magesh_Admin_Role", 	
 # Default region Ireland
     "region": "eu-west-1",
 # S3 Bucket name

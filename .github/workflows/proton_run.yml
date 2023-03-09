@@ -157,7 +157,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-region: eu-west-1
-        role-to-assume: service-role/proton-vpc-test-role
+        role-to-assume: arn:aws:iam::842814951080:role/Magesh_Admin_Role
         role-session-name: TF-Github-Actions
 
     # Install the latest version of Terraform CLI and configure the Terraform CLI configuration file with a Terraform Cloud user API token
@@ -224,7 +224,7 @@ jobs:
       uses: aws-actions/configure-aws-credentials@v1
       with:
         aws-region: eu-west-1
-        role-to-assume: service-role/proton-vpc-test-role
+        role-to-assume: arn:aws:iam::842814951080:role/Magesh_Admin_Role
         role-session-name: TF-Github-Actions-Notify-Proton
       
     # This is a temporary measure until this feature exits Public Preview
