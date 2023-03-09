@@ -1,0 +1,9 @@
+{
+  "deploymentId" : "<proton-resource-deleted>",
+  "isResourceDeleted" : true,
+  "componentMetadata" : {
+    "arn" : "arn:aws:proton:eu-west-1:842814951080:component/mycomponent",
+    "environmentArn" : "arn:aws:proton:eu-west-1:842814951080:environment/my-proton-env",
+    "componentType" : "default"
+  }
+}
