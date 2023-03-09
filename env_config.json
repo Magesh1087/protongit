@@ -5,6 +5,6 @@
 # Default region Ireland
     "region": "eu-west-1",
 # S3 Bucket name
-    "state_bucket":"rosaendpoints3”
+    "state_bucket":"rosaendpoints3"
 	}
 }
