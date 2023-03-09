@@ -1,0 +1,9 @@
+{
+  "deploymentId" : "47ae9e4c-a42f-4ac8-a870-b14bc3124388",
+  "isResourceDeleted" : false,
+  "componentMetadata" : {
+    "arn" : "arn:aws:proton:eu-west-1:842814951080:component/mycomponent",
+    "environmentArn" : "arn:aws:proton:eu-west-1:842814951080:environment/my-proton-env",
+    "componentType" : "default"
+  }
+}
