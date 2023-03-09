@@ -13,12 +13,5 @@ schema:
           description: "Name for vpc"
       required:
         - vpc_name
-        region:
-          type: string
-          description: "The region to provision "
-          default: "eu-west-1"
-        vpc_cidr:
-          type: string
-          description: "CIDR IP of the VPC"
-          default: "10.0.0.0/16"
+
         
