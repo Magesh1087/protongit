@@ -3,6 +3,6 @@ provider "aws" {
   # alias  = "default"
   assume_role {
     #session_name = "eks-deploy-cross-account"
-    role_arn     = "arn:aws:iam::842814951080:role/Magesh_Admin_Role"
+    role_arn     = "arn:aws:iam::842814951080:role/service-role/codebuild"
   }
 }
