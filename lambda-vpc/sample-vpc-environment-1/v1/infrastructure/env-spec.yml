@@ -1,3 +1,0 @@
-proton: EnvironmentSpec
-spec:
-    vpc_name: "vpc-lambda"
