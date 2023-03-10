@@ -1,11 +1,11 @@
 resource "aws_vpc" "pubpvt-vpc" {
   cidr_block           = var.vpc_cidr
   enable_dns_hostnames = true
-  #  instance_tenancy     = var.tenancy
+   # instance_tenancy     = var.tenancy
 
-  #    tags = {
-  #      Name = "${var.network_tag_prefix}-vpc"
-  #    }
+      tags = {
+       Name = "${var.network_tag_prefix}-vpc"
+      }
 }
 
 #Creating 3 public subnets
