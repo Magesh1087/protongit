@@ -4,7 +4,7 @@ resource "aws_vpc" "pubpvt-vpc" {
    # instance_tenancy     = var.tenancy
 
       tags = {
-       Name = "${var.network_tag_prefix}-vpc"
+       Name = "proton-vpc"
       }
 }
 
