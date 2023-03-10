@@ -37,9 +37,9 @@ variable "worker_subnet_cidrs" {
   default     = ["10.0.128.0/20", "10.0.144.0/20", "10.0.160.0/20"]
 }
 
-variable "network_tag_prefix" {
-  type        = string
-  description = "Network tag prefix to identify VPC. Tag will then become 'tag-vpc' "
-  default     = "Proton"
+#variable "network_tag_prefix" {
+#  type        = string
+#  description = "Network tag prefix to identify VPC. Tag will then become 'tag-vpc' "
+#  default     = "Proton"
 
-}
+#}
