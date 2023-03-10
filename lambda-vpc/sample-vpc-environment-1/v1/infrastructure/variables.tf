@@ -40,5 +40,6 @@ variable "worker_subnet_cidrs" {
 variable "network_tag_prefix" {
   type        = string
   description = "Network tag prefix to identify VPC. Tag will then become 'tag-vpc' "
+  default     = "VPC-Proton"
 
 }
