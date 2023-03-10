@@ -22,7 +22,7 @@ infrastructure:
           # provision, storing state in an s3 bucket using the proton environment.service.instance as the key
           - terraform init
           - terraform apply 
-
+          #
           # pass terraform output to proton
           - chmod +x ./output.sh && ./output.sh
 
