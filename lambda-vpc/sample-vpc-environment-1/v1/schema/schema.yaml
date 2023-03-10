@@ -7,7 +7,7 @@ schema:
       type: object
       description: "Input properties for my environment"
       properties:
-        region:
+        aws_region:
           type: string
           description: "The region to provision "
           default: "eu-west-1"
